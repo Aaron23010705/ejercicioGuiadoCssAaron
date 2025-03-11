@@ -52,3 +52,34 @@ p {
     overflow: auto;
     margin-bottom: 30px;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+}
+.image{
+    width: 600px;
+    border: 2px solid black;
+}
+
+.acerca {
+    overflow: auto;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+
+.acerca h3 {
+    color: whitesmoke;
+    background-color: black;
+}
+.acerca p {
+text-decoration: solid;
+}
+.acerca img {
+
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+}
+
