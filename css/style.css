@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .logo{
    width: 200px; 
 }
@@ -15,4 +19,36 @@ nav a {
 }
 nav a:hover{
     text-decoration: underline;
+}
+main {
+
+background-color: white;
+color: black;
+}
+
+.welcome{
+    padding: 20px;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+.courses{
+    padding: 30px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+.welcome h1, .courses h2 {
+    color: #005A9C;
+}
+.infoCurso img {
+
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+}
+.infoCurso {
+    overflow: auto;
+    margin-bottom: 30px;
 }
